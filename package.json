@@ -1,0 +1,11 @@
+{
+  "name": "kinetix",
+  "version": "1.0.0",
+  "description": "High-performance offline music player with 8D spatial audio and glassmorphic UI",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve . -p 5173",
+    "start": "npx serve . -p 5173"
+  },
+  "keywords": ["music", "player", "offline", "8d-audio", "spatial", "web-audio"]
+}

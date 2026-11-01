@@ -1,0 +1,55 @@
+{
+  "name": "KINETIX Audio",
+  "short_name": "Kinetix",
+  "description": "High-performance offline music player and 8D spatial audio engine for travel and local playback",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#2A085C",
+  "background_color": "#08080C",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "music",
+    "entertainment",
+    "utilities"
+  ],
+  "file_handlers": [
+    {
+      "action": "./index.html",
+      "name": "Audio Files",
+      "accept": {
+        "audio/*": [
+          ".mp3",
+          ".flac",
+          ".wav",
+          ".m4a",
+          ".aac",
+          ".ogg",
+          ".opus",
+          ".mka",
+          ".ape"
+        ]
+      }
+    }
+  ]
+}
